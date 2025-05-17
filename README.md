@@ -1,17 +1,6 @@
 # Object-Localization-with-TensorFlow
-Here's a **README.md** file tailored for your **Object Localization with TensorFlow** project on GitHub:
-
----
-
-# Object Localization with TensorFlow
 
 This project demonstrates a simple implementation of **object localization** using **TensorFlow 2.4**. The task is to detect and classify emoji faces randomly placed within synthetic 144x144 images. The model is trained to predict both the **class of the emoji** and its **top-left coordinates** in the image.
-
-<p align="center">
-  <img src="https://github.com/yourusername/yourrepo/raw/main/sample_output.png" width="500" alt="Example Output">
-</p>
-
----
 
 ## Key Features
 
@@ -30,8 +19,6 @@ This project demonstrates a simple implementation of **object localization** usi
 
   * One for class probabilities (softmax).
   * One for bounding box regression (linear activation).
-
----
 
 ## Dataset
 
@@ -53,9 +40,6 @@ Install with:
 ```bash
 pip install tensorflow==2.4 matplotlib pillow numpy
 ```
-
----
-
 ## How to Use
 
 1. **Clone the repository**:
